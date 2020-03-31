@@ -1,0 +1,167 @@
+@keyframes spinAround {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(359deg); } }
+
+body {
+  font-family: Roboto, sans-serif !important; }
+
+.breadcrumb.is-small {
+  padding: 13px;
+  position: relative;
+  top: -9px; }
+
+.container-app {
+  border-radius: 12px;
+  position: absolute;
+  padding: 0px !important;
+  bottom: 10px;
+  top: 10px;
+  right: 10px;
+  left: 10px; }
+
+.container-content-app {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #f5f7fb;
+  border-radius: 0px 0px 12px 12px; }
+
+.box-nav {
+  padding: 0px;
+  box-shadow: 0 0 5px -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.02) !important;
+  border: 0;
+  z-index: 1; }
+
+.paper {
+  box-shadow: 0 6px 26px 0 rgba(222, 222, 222, 0.7), 0 1px 6px 0 #d0d0d0, 0 3px 1px -2px #8a8a8a;
+  background: white; }
+
+.pageloader {
+  background: #3598d5 !important; }
+
+.menu-item:hover {
+  color: #363636;
+  cursor: pointer; }
+
+.menu-item.active {
+  color: #f5f5f5;
+  cursor: pointer; }
+
+.leaflet-container.leaflet-touch-drag {
+  position: relative;
+  z-index: 1; }
+
+.columns {
+  margin: 0 !important; }
+
+nav {
+  margin: 0;
+  padding: 0;
+  height: 40px; }
+
+.navbar-end {
+  padding-top: 16px;
+  position: relative; }
+
+.navbar {
+  border-radius: 10px !important; }
+
+.colunm-menu {
+  background: #483de2;
+  max-width: 70px; }
+
+.colunm-menu.side-one {
+  border-radius: 9px 0 0 0;
+  height: 61px;
+  position: relative;
+  text-align: center;
+  border-bottom: 1px solid #5d52ef;
+  cursor: pointer;
+  padding-top: 15px; }
+
+.colunm-menu.side-two {
+  border-radius: 0px 0px 0px 10px;
+  padding-top: 37px; }
+
+.colunm-menu.side-one:hover {
+  background: #5d52ef; }
+
+.menu-side .rcw-launcher {
+  -webkit-animation-delay: 0;
+  -webkit-animation-duration: .5s;
+  -webkit-animation-name: d;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-delay: 0;
+  -moz-animation-duration: .5s;
+  -moz-animation-name: d;
+  -moz-animation-fill-mode: forwards;
+  animation-delay: 0;
+  animation-duration: .5s;
+  animation-name: d;
+  animation-fill-mode: forwards;
+  align-self: flex-end;
+  background-color: #483de2 !important;
+  border: 0;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px 1px #1101ec !important;
+  height: 50px !important;
+  margin-top: 10px;
+  width: 50px !important; }
+
+.menu-side .rcw-launcher img {
+  height: auto !important;
+  max-width: 70% !important; }
+
+.menu-side .rcw-launcher .rcw-badge {
+  position: fixed;
+  top: -10px;
+  right: -5px;
+  background-color: #f14668;
+  color: #fff;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 50%; }
+
+.menu-side .rcw-widget-container {
+  bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px 20px 0;
+  max-width: 370px !important;
+  position: fixed !important;
+  left: 25px !important;
+  z-index: 9; }
+
+.menu-side .rcw-opened button.rcw-launcher.rcw-hide-sm {
+  left: -320px;
+  position: relative;
+  cursor: pointer; }
+
+.menu-side button.rcw-launcher {
+  left: -324px !important;
+  position: relative;
+  cursor: pointer;
+  bottom: -12px; }
+
+#box-map.fullscreen {
+  width: 50% !important;
+  z-index: 99999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  transition: all 0.8s;
+  transition-timing-function: cubic-bezier(0.2, 0.4, 0.5, 1.5); }
+
+#box-map {
+  transition: all 0.8s;
+  transition-timing-function: cubic-bezier(0.2, 0.4, 0.5, 1.5); }
+
+.typography {
+  font-family: futura-lt-w01-book, sans-serif !important; }
